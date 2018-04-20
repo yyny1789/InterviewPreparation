@@ -18,6 +18,8 @@
 
    `Bounds` 和`Frame` 的 width、height 并不一定相等，在当 view 做 transformed 时，就不相等。
 
+3. 如何高性能的画一个圆角?
+
 ## 经验问题
 
 ## 哲学问题
