@@ -16,7 +16,7 @@
 
    `Frame`：该 view 在父 view 坐标系统中的位置和大小。
 
-   `Bounds` 和`Frame` 的 width、height 并不一定相等，在当 view 做 transformed 时，就不相等。
+   `Bounds` 和`Frame` 的 width、height 并不一定相等，在当 view 做 旋转 transform 时，就不相等。
 
 3. 如何高性能的画一个圆角?
 
