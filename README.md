@@ -44,7 +44,7 @@
 
    ② 指定初始化函数才有资格调用父类的指定初始化函数
 
-   ![](https://github.com/yyny1789/InterviewPreparation/blob/master/pics/designated.png?raw=true)
+   <img src="https://github.com/yyny1789/InterviewPreparation/blob/master/pics/designated.png?raw=true" width="500" />
 
 ## 经验问题
 
