@@ -20,6 +20,12 @@
 
 3. 如何高性能的画一个圆角?
 
+   `UIView`：使用 `Core Graphics` 画出一个圆角 image，然后把 image 添加到 view 的最底层。
+
+   `UIImageView`：使用 `Core Graphics` 直接截取 UIImageView 的 image。
+
+   [参考资料](https://bestswifter.com/efficient-rounded-corner/)
+
 ## 经验问题
 
 ## 哲学问题
