@@ -74,7 +74,26 @@
 8. 简述事件传递、事件响应机制。
 
    南峰子的这篇 [UIKit: UIResponder](http://southpeak.github.io/2015/03/07/cocoa-uikit-uiresponder/) 文章介绍的很详细
-   ​
+
+9. 怎样扩大 `UIButton` 点击范围？
+
+   [UIButton: Making the hit area larger than the default hit area](https://stackoverflow.com/questions/808503/uibutton-making-the-hit-area-larger-than-the-default-hit-area) 
+
+   需要理解 UIKit：UIResponder
+
+10. `setNeedsLayout` 和 `layoutIfNeeded` 的关系？
+
+   ```swift
+   // Allows you to perform layout before the drawing cycle happens. -layoutIfNeeded forces layout early
+   - (void)setNeedsLayout;
+   - (void)layoutIfNeeded;
+   ```
+
+   `setNeedsLayout` ：标记为需要重新布局，不立即刷新，在下一轮 `runloop` 结束前刷新。
+
+   `layoutIfNeeded` ：如果有需要刷新的标记，立即调用 `layoutSubviews` 进行布局。
+
+   这两个方法一般是配套使用，也可单独使用。
 
 ## 经验问题
 
