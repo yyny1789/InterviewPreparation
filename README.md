@@ -71,6 +71,9 @@
        }
    ```
 
+8. 简述事件传递、事件响应机制。
+
+   南峰子的这篇 [UIKit: UIResponder](http://southpeak.github.io/2015/03/07/cocoa-uikit-uiresponder/) 文章介绍的很详细
    ​
 
 ## 经验问题
