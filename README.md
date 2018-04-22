@@ -112,4 +112,7 @@
 ## 参考
 
 1. [iOS 开发者面试题集锦](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
+2. [《招聘一个靠谱的 iOS》参考答案](https://github.com/ChenYilong/iOSInterviewQuestions)
+3. [面试 iOS 开发时可以问的一些问题](https://github.com/lzyy/iOS-Developer-Interview-Questions)
+
 
