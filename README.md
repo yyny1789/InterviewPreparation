@@ -5,7 +5,7 @@
 1. `UIView` 和 `CALayer` 是什么关系？
 
    ```swift
-   @property(nonatomic,readonly,strong)                 CALayer  *layer;              // returns view's layer. Will always return a non-nil value. view is layer's delegate
+   @property(nonatomic,readonly,strong) CALayer  *layer; // returns view's layer. Will always return a non-nil value. view is layer's delegate
    ```
 
    由此可见 `UIView` 和 `CALayer` 的主要关系是：`UIView` 是 `CALayer` 的 delegate。
