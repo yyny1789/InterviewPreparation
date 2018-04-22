@@ -42,9 +42,9 @@
 
 5. `Designated Initializer` 的规则？
 
-   ① 便利初始化函数只能调用自己类中的其他初始化方法
+   ① 便利初始化函数只能调用自己类中的其他初始化方法。
 
-   ② 指定初始化函数才有资格调用父类的指定初始化函数
+   ② 指定初始化函数才有资格调用父类的指定初始化函数。
 
    <img src="https://github.com/yyny1789/InterviewPreparation/blob/master/pics/designated.png?raw=true" width="500" />
 
@@ -60,7 +60,7 @@
 
    生命周期： `init -> loadView -> viewDidLoad -> viewWillAppear -> viewDidAppear -> viewWillDisappear -> viewDidDisappear -> dealloc `
 
-   内存警告：当 App 收到内存警告时，会调用 `view controller` 的 `didReceiveMemoryWarning` 方法，所以在 `didReceiveMemoryWarning` 里做一些减少内存的操作
+   内存警告：当 App 收到内存警告时，会调用 `view controller` 的 `didReceiveMemoryWarning` 方法，所以在 `didReceiveMemoryWarning` 里做一些减少内存的操作。
 
    ```swift
    override func didReceiveMemoryWarning() {
@@ -75,13 +75,13 @@
 
 8. 简述事件传递、事件响应机制。
 
-   南峰子的这篇 [UIKit: UIResponder](http://southpeak.github.io/2015/03/07/cocoa-uikit-uiresponder/) 文章介绍的很详细
+   南峰子的这篇 [UIKit: UIResponder](http://southpeak.github.io/2015/03/07/cocoa-uikit-uiresponder/) 文章介绍的很详细。
 
 9. 怎样扩大 `UIButton` 点击范围？
 
    [UIButton: Making the hit area larger than the default hit area](https://stackoverflow.com/questions/808503/uibutton-making-the-hit-area-larger-than-the-default-hit-area) 
 
-   需要理解 UIKit：UIResponder
+   需要理解 UIKit：UIResponder。
 
 10. `setNeedsLayout` 和 `layoutIfNeeded` 的关系？
 
