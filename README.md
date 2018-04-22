@@ -46,6 +46,33 @@
 
    <img src="https://github.com/yyny1789/InterviewPreparation/blob/master/pics/designated.png?raw=true" width="500" />
 
+6. `LoadView` 方法的作用？
+
+   ```swift
+   - (void)loadView; // This is where subclasses should create their custom view hierarchy if they aren't using a nib. Should never be called directly.
+   ```
+
+   用来自定义一个 view 给 viewController 使用。
+
+7. 说一下控制器 `View` 的生命周期，一旦收到内存警告该如何处理？
+
+   生命周期： `init -> loadView -> viewDidLoad -> viewWillAppear -> viewDidAppear -> viewWillDisappear -> viewDidDisappear -> dealloc `
+
+   内存警告：当 App 收到内存警告时，会调用 `view controller` 的 `didReceiveMemoryWarning` 方法，所以在 `didReceiveMemoryWarning` 里做一些减少内存的操作
+
+   ```swift
+   override func didReceiveMemoryWarning() {
+          	super.didReceiveMemoryWarning()
+           
+           if self.isViewLoaded && self.view.window == nil {
+               self.view = nil
+           }
+           self.dataArr.removeAll()
+       }
+   ```
+
+   ​
+
 ## 经验问题
 
 ## 哲学问题
